@@ -2,9 +2,12 @@ package test.Selenium_automation;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
 
@@ -30,9 +33,24 @@ static ChromeDriver driver;
 		//copy temp file into permenent location
 		FileHandler.copy(src, dest);
 		System.out.println("screenshot captured!!");
+		driver.navigate().to("https://www.amazon.in/");
+	}
+	static void partial_ss()
+	{
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
+		WebElement logofk=driver.findElement(By.xpath("//div[@id='nav-logo']"));
+		File fk=logofk.getScreenshotAs(OutputType.FILE);
+		
+		File store=new File("C:\\Users\\Admin\\automation_testing_23apr\\Selenium_automation\\amazonlogo.png");
+		
+		fk.renameTo(store);
+		System.out.println("partial screenshot captured!!");
+		
+		
 	}
 	public static void main(String[] args) throws IOException {
 		myntralaunch();
 		fullss();
+		partial_ss();
 	}
 }
