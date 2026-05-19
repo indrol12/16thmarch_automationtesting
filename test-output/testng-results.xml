@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T09:52:35 IST" name="Default suite" finished-at="2026-05-19T09:52:43 IST" duration-ms="7441">
+  <suite started-at="2026-05-19T10:06:07 IST" name="Default suite" finished-at="2026-05-19T10:06:07 IST" duration-ms="41">
     <groups>
     </groups>
-    <test started-at="2026-05-19T09:52:35 IST" name="Default test" finished-at="2026-05-19T09:52:43 IST" duration-ms="7441">
-      <class name="test.Selenium_automation.ohrmlogin">
-        <test-method is-config="true" signature="launchohrm()[pri:0, instance:test.Selenium_automation.ohrmlogin@7db12bb6]" started-at="2026-05-19T09:52:35 IST" name="launchohrm" finished-at="2026-05-19T09:52:40 IST" duration-ms="4167" status="PASS">
+    <test started-at="2026-05-19T10:06:07 IST" name="Default test" finished-at="2026-05-19T10:06:07 IST" duration-ms="41">
+      <class name="test.Selenium_automation.priority">
+        <test-method signature="jasmin()[pri:1, instance:test.Selenium_automation.priority@37d4349f]" started-at="2026-05-19T10:06:07 IST" name="jasmin" finished-at="2026-05-19T10:06:07 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchohrm -->
-        <test-method signature="logintest()[pri:0, instance:test.Selenium_automation.ohrmlogin@7db12bb6]" started-at="2026-05-19T09:52:40 IST" name="logintest" finished-at="2026-05-19T09:52:40 IST" duration-ms="691" status="PASS">
+        </test-method> <!-- jasmin -->
+        <test-method signature="apple()[pri:2, instance:test.Selenium_automation.priority@37d4349f]" started-at="2026-05-19T10:06:07 IST" name="apple" finished-at="2026-05-19T10:06:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="logouttest()[pri:0, instance:test.Selenium_automation.ohrmlogin@7db12bb6]" started-at="2026-05-19T09:52:40 IST" name="logouttest" finished-at="2026-05-19T09:52:43 IST" duration-ms="2532" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logouttest -->
-      </class> <!-- test.Selenium_automation.ohrmlogin -->
+        </test-method> <!-- apple -->
+      </class> <!-- test.Selenium_automation.priority -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
