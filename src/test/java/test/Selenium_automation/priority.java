@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class priority {
 
-	@Test(priority=1)
+	@Test(priority=-1)
 	void jasmin()
 	{
 		System.out.println("flower");

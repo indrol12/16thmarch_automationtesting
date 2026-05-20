@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse-487218796\testng-customsuite.xml</span>
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse-611094125\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.Selenium_automation.priority" class="method navigator-link" hash-for-method="apple">apple</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="test.Selenium_automation.logintest" class="method navigator-link" hash-for-method="close">close</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.Selenium_automation.priority" class="method navigator-link" hash-for-method="jasmin">jasmin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="test.Selenium_automation.logintest" class="method navigator-link" hash-for-method="demo_at">demo_at</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Selenium_automation.logintest" class="method navigator-link" hash-for-method="signin">signin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,21 +132,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.Selenium_automation.priority</span>
+              <span class="class-name">test.Selenium_automation.logintest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="apple">
-                  </a> <!-- apple -->
-                  <span class="method-name">apple</span>
+                  <a name="close">
+                  </a> <!-- close -->
+                  <span class="method-name">close</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="jasmin">
-                  </a> <!-- jasmin -->
-                  <span class="method-name">jasmin</span>
+                  <a name="demo_at">
+                  </a> <!-- demo_at -->
+                  <span class="method-name">demo_at</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signin">
+                  </a> <!-- signin -->
+                  <span class="method-name">signin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse-487218796\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse-611094125\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +170,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.Selenium_automation.priority&quot;/&gt;
+      &lt;class name=&quot;test.Selenium_automation.logintest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,20 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'jasmin')
-data.setCell(0, 2, 'test.Selenium_automation.priority')
-data.setCell(0, 3, 8);
+data.setCell(0, 1, 'demo_at')
+data.setCell(0, 2, 'test.Selenium_automation.logintest')
+data.setCell(0, 3, 1547);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'apple')
-data.setCell(1, 2, 'test.Selenium_automation.priority')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'signin')
+data.setCell(1, 2, 'test.Selenium_automation.logintest')
+data.setCell(1, 3, 1333);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'close')
+data.setCell(2, 2, 'test.Selenium_automation.logintest')
+data.setCell(2, 3, 138);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 ms</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,14 +253,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.Selenium_automation.priority</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.Selenium_automation.logintest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">jasmin</span>
+                <span class="method-name">demo_at</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">apple</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-name">signin</span>
+                <span class="method-start">1561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">close</span>
+                <span class="method-start">2898 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

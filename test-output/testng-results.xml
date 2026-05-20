@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T10:06:07 IST" name="Default suite" finished-at="2026-05-19T10:06:07 IST" duration-ms="41">
+  <suite started-at="2026-05-20T09:37:32 IST" name="Default suite" finished-at="2026-05-20T09:37:35 IST" duration-ms="3062">
     <groups>
     </groups>
-    <test started-at="2026-05-19T10:06:07 IST" name="Default test" finished-at="2026-05-19T10:06:07 IST" duration-ms="41">
-      <class name="test.Selenium_automation.priority">
-        <test-method signature="jasmin()[pri:1, instance:test.Selenium_automation.priority@37d4349f]" started-at="2026-05-19T10:06:07 IST" name="jasmin" finished-at="2026-05-19T10:06:07 IST" duration-ms="8" status="PASS">
+    <test started-at="2026-05-20T09:37:32 IST" name="Default test" finished-at="2026-05-20T09:37:35 IST" duration-ms="3062">
+      <class name="test.Selenium_automation.logintest">
+        <test-method signature="demo_at()[pri:1, instance:test.Selenium_automation.logintest@37d4349f]" started-at="2026-05-20T09:37:32 IST" name="demo_at" finished-at="2026-05-20T09:37:34 IST" duration-ms="1547" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jasmin -->
-        <test-method signature="apple()[pri:2, instance:test.Selenium_automation.priority@37d4349f]" started-at="2026-05-19T10:06:07 IST" name="apple" finished-at="2026-05-19T10:06:07 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- demo_at -->
+        <test-method signature="signin()[pri:2, instance:test.Selenium_automation.logintest@37d4349f]" started-at="2026-05-20T09:37:34 IST" name="signin" finished-at="2026-05-20T09:37:35 IST" duration-ms="1333" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- apple -->
-      </class> <!-- test.Selenium_automation.priority -->
+        </test-method> <!-- signin -->
+        <test-method signature="close()[pri:3, instance:test.Selenium_automation.logintest@37d4349f]" started-at="2026-05-20T09:37:35 IST" name="close" finished-at="2026-05-20T09:37:35 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.Selenium_automation.logintest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
