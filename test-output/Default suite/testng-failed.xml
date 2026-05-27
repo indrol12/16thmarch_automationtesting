@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.Selenium_automation.logintest">
+      <class name="test.Selenium_automation.Assertion">
         <methods>
-          <include name="close"/>
+          <include name="assert_title"/>
         </methods>
-      </class> <!-- test.Selenium_automation.logintest -->
+      </class> <!-- test.Selenium_automation.Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
